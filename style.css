@@ -1,46 +1,46 @@
-.barr_nav {
-  margin-top: 10px;
-  list-style: none;
-  padding-left: 0px;
-  background-color: pink;
-}
-
-.barr_nav_item {
-  display: inline-block;
-  position: relative;
-  right: 16px;
-}
-
-.barr_nav_item a {
-  color: green;
-  padding: 5px;
-  border-radius: 2px;
-  text-decoration: none;
-}
-
-.barr_nav_item a:hover {
-  color: red;
-}
-
-.barr_nav_item a:active {
-  color: blue;
-}
-
-.fotos {
+.header_nav {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
-.datos {
+.header_nav_left {
+  display: flex;
+  align-items: center;
+}
+.header_nav_items {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-left: 300px;
+}
+.header_nav_items li {
+  margin-right: 15px;
+}
+.header_nav_button {
+  display: flex;
+}
+.header_nav_button button {
+  margin-left: 15px;
+}
+
+.main_servi {
   display: flex;
   flex-direction: column;
-  align-content: start;
-  color: black;
-  gap: 20px;
+  align-items: center;
 }
-.botenvi {
-  width: 100px;
+.main_servi_items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
-
-.pie {
-  background-color: blue;
+.main_servi div {
+  text-align: center;
+  margin: 10px;
+}
+.main_servi img {
+  max-width: 100%;
+}
+.main_servi figcaption {
+  margin-top: 10px;
 }
