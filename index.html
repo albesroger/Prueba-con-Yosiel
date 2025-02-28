@@ -6,11 +6,11 @@
     <title>Document</title>
     <link href="style.css" rel="stylesheet">
 </head>
-<body>
+<body class="body">
     <header class="header">
         <nav class="header_nav">
             <div class="header_nav_left">
-                <p>Salon de Belleza RYAL</p>
+                <p>RYAL</p>
             </div>
             
             <ul class="header_nav_items">
@@ -21,15 +21,19 @@
                 <li><a href="">Clasificar</a></li>
             </ul>
             <div class="header_nav_button">
-                <button type="submit">Autenticarse</button>
-                <button type="submit">Registrarse</button>
+                <form action="Login/login.html">
+                    <button type="submit">Autenticarse</button>
+                </form>
+                <form action="">
+                    <button type="submit">Registrarse</button>
+                </form>
             </div>
         </nav>
     </header>
 
     <main class="main">
         <section class="main_servi">
-            <div><h4>Servicios</h4></div>
+            <div><h4 class="h_Servicios">Servicios</h4></div>
             <div class="main_servi_items">
                 <div>
                     <img src="./IMGS/images-4.jpeg" alt>
@@ -48,14 +52,22 @@
                     <figcaption><p>Barberia</p></figcaption>
                 </div>
             </div>
+            <div>
+                <form action="Agendar/agendarcita.html">
+                    <button class="bton_agendar" type="submit">Agendar cita</button>
+                </form>
+            </div>
         </section>
-        <section>
+        
+        <section class="main_Promo">
             <h4> Promociones</h4>
         </section>
-        <section>
+
+        <section class="main_NuesS">
             <h4>Nuestros trabajos</h4>
         </section>
-        <section>
+
+        <section class="main_Clasi">
             <h4> Clasificar</h4>
         </section>
     </main>
