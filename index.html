@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Salon de Belleza</title>
+        <meta name="description" content="Lo que sale debajo del titulo">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body <header="">
+            <nav>
+                <p>SALON DE BELLEZA RYAL</p>
+                <ul class="barr_nav">
+                    <li class="barr_nav_item"><a href="">Inicio</a></li>
+                    <li class="barr_nav_item"><a href="">Servicios</a></li>
+                    <li class="barr_nav_item"><a href="">Citas</a></li>
+                </ul>
+            </nav>
+        
+
+       <form class="datos" action>
+            <label for="nombre">
+                <span>nombre</span>
+                <input id="nombre" name="nombre" type="text" placeholder="tu nombre" autocomplete="name" required>
+            </label>
+
+            <label name for="telefono">
+                <span>telefono</span>
+                <input id="telefono" name="telefono" type="number" placeholder="tu telefono" autocomplete="mobile" required>
+            </label>  
+
+            <label for="correo">
+                <span>correo</span>
+                <input id="correo" name="correo" type="text" placeholder="tu correo" autocomplete="email" required>
+            </label>
+        
+            <label for="fecha">
+                <span>fecha</span>
+                <input id="fecha" type="date">
+            </label>
+            <input class="botenvi" type="submit">
+        </form>
+
+        <main>       
+            <input list="Servicios" placeholder="Servicios">
+            <datalist id="Servicios">
+                <option value="Peluqueria"></option>
+                <option value="Barberia"></option>
+                <option value="Manicure"></option>
+                <option value="Skin Care"></option>   
+            </datalist>
+
+            <section>
+                <figure class="fotos">
+                    <div>
+                        <img src="/IMGS/images-4.jpeg" alt="Imagen de pelo de mujer">
+                        <figcaption>Imagen de peinado</figcaption>
+                    </div>
+                    <div>
+                        <img src="/IMGS/images-6.jpeg" alt="Imagen de pelo de mujer">
+                        <figcaption> Imagen de Skin Care</figcaption>
+                    </div>
+                    <div>
+                        <img src="/IMGS/images-8.jpeg" alt="Imagen de pelo de mujer">
+                        <figcaption>Imagen de arreglo de unnas</figcaption>
+                    </div>
+                </figure>  
+            </section>           
+        </main>
+
+        <footer>
+            <div class="pie">
+                <p>dadasd</p>
+            </div>
+        </footer>
+     </body>
+</html>

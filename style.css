@@ -1,0 +1,46 @@
+.barr_nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0px;
+  background-color: pink;
+}
+
+.barr_nav_item {
+  display: inline-block;
+  position: relative;
+  right: 16px;
+}
+
+.barr_nav_item a {
+  color: green;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.barr_nav_item a:hover {
+  color: red;
+}
+
+.barr_nav_item a:active {
+  color: blue;
+}
+
+.fotos {
+  display: flex;
+  gap: 20px;
+}
+.datos {
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  color: black;
+  gap: 20px;
+}
+.botenvi {
+  width: 100px;
+}
+
+.pie {
+  background-color: blue;
+}
