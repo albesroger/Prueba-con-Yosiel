@@ -1,0 +1,65 @@
+.header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  gap: 40px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+  height: 60px;
+  width: 100%;
+  z-index: 2;
+}
+.header_nav_left {
+  color: rgb(238, 181, 36);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+.header_nav_items {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+.header_nav_items a {
+  text-decoration: none;
+  color: rgb(103, 63, 3);
+  opacity: 1;
+  font-weight: bold;
+}
+
+.header_nav_button {
+  display: flex;
+  gap: 10px;
+}
+.button_regis {
+  border: 2px solid rgb(238, 181, 36);
+  background-color: transparent;
+  color: rgb(103, 63, 3);
+  border-radius: 5px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.button_auten {
+  border: 2px solid rgb(238, 181, 36);
+  color: rgb(103, 63, 3);
+  background-color: transparent;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*-----------------------------------------*/
+.body {
+  margin: 0;
+  padding: 0;
+}
+.main_autent {
+  background-color: red;
+}
