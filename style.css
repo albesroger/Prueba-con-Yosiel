@@ -1,82 +1,184 @@
+.header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  gap: 40px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+  height: 60px;
+  width: 100%;
+  z-index: 2;
+}
+.header_nav_left {
+  color: rgb(238, 181, 36);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+.header_nav_items {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+.header_nav_items a {
+  text-decoration: none;
+  color: rgb(103, 63, 3);
+  opacity: 1;
+  font-weight: bold;
+}
+
+.header_nav_button {
+  display: flex;
+  gap: 10px;
+}
+.button_regis {
+  border: 2px solid rgb(238, 181, 36);
+  background-color: transparent;
+  color: rgb(103, 63, 3);
+  border-radius: 5px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.button_auten {
+  border: 2px solid rgb(238, 181, 36);
+  color: rgb(103, 63, 3);
+  background-color: transparent;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*-----------------------------------------*/
+
 .body {
   margin: 0;
   padding: 0;
 }
-.header {
-  margin: 0;
-  padding: 0;
-}
-.header_nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(245, 158, 173);
-  font-family: fantasy;
-  height: 60px;
-}
-.header_nav_left {
-  display: flex;
-  align-items: center;
-  font-size: 30px;
-  font-family: fantasy;
-  margin: 10px;
-}
-.header_nav_items {
-  list-style: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
-  margin-left: 300px;
-}
-.header_nav_items li {
-  margin-right: 15px;
-}
-.header_nav_button {
-  display: flex;
-  margin-right: 10px;
-}
-.header_nav_button button {
-  margin-left: 15px;
-  font-family: fantasy;
-}
 
+.main_inic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./IMGS/_TAL3113-VilaVitaAnita.jpeg);
+  height: 750px;
+  background-size: cover;
+}
+.overlay {
+  position: absolute;
+  height: 750px;
+  width: 100%;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  z-index: 1;
+}
+.main_inic h1 {
+  padding-top: 100px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  font-size: 80px;
+  color: rgb(77, 8, 8);
+  z-index: 2;
+}
+.main_inic h3 {
+  font-size: 40px;
+  padding-top: 0px;
+  color: rgb(77, 8, 8);
+  z-index: 2;
+}
+.main_inic h4 {
+  font-size: 30px;
+  color: rgb(77, 8, 8);
+  text-align: center;
+  padding: 0px;
+  margin: 0;
+  z-index: 2;
+}
+.main_inic h4 p {
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+/*-----------------------------------------*/
 .main_servi {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: fantasy;
-  background-color: pink;
-}
-.h_Servicios {
-  font-size: 30px;
+  gap: 10px;
 }
 .main_servi_items {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  gap: 5px;
 }
-.main_servi div {
-  text-align: center;
-  margin: 10px;
+
+.main_servi_items_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.main_servi img {
-  max-width: 100%;
+.main_servi_items_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.main_servi figcaption {
-  margin-top: 10px;
+.main_servi_items_3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_servi_items_4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_servi_items_5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_servi_items_1 img {
+  height: 200px;
+  width: 250px;
+}
+.main_servi_items_2 img {
+  height: 200px;
+  width: 250px;
+}
+.main_servi_items_3 img {
+  height: 200px;
+  width: 250px;
+}
+.main_servi_items_4 img {
+  height: 200px;
+  width: 250px;
+}
+.main_servi_items_5 img {
+  height: 200px;
+  width: 250px;
+}
+
+div > figcaption {
+  color: rgb(238, 181, 36);
+  font-size: 25px;
+}
+.h_Servicios {
+  font-size: 30px;
+  margin: 20px 0;
+  color: rgb(238, 181, 36);
 }
 .bton_agendar {
-  font-family: fantasy;
-}
-
-.main_Promo {
-  background-color: rgb(227, 161, 172);
-}
-
-.main_NuesS {
-  background-color: rgb(189, 114, 127);
-}
-
-.main_Clasi {
-  background-color: rgb(202, 161, 168);
+  border: 2px solid rgb(238, 181, 36);
+  color: rgb(103, 63, 3);
+  background-color: transparent;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
 }

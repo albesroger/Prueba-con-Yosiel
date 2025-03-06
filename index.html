@@ -1,76 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body class="body">
-    <header class="header">
-        <nav class="header_nav">
-            <div class="header_nav_left">
-                <p>RYAL</p>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Salon de belleza</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body class="body">
+
+        <header class="header">
+
+            <nav class="header_nav">
+                
+                <div class="header_nav_left">
+                    <p>RYAL</p>
+                </div>
+                
+                <ul class="header_nav_items">
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Servicios</a></li>
+                    <li><a href="">Promociones</a></li>
+                    <li><a href="">Nuestros trabajos</a></li>
+                    <li><a href="">Clasificar</a></li>
+                </ul>
+
+                <div class="header_nav_button">
+
+                    <form action="Login/login.html">
+                        <button class="button_auten" type="submit">Autenticarse</button>
+                    </form>
+                    <form action=" ">
+                        <button class="button_regis" type="submit">Registrarse</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="main_inic">
+                <div class="overlay"></div>
+                <h1> Bienvenido a salon RYAL</h1>
+                <h3> Donde la belleza se convierte en arte.</h3>
+                <h4> Relajate, renueva tu estilo y resalta tu esencia <p></p> con nuestros tratamientos exclusivos</h4>
+            </section>
+
+            <section class="main_servi">
+                <div>
+                    <h4 class="h_Servicios">Servicios</h4>
+                </div>
+
+                <div class="main_servi_items">
+                    <div class="main_servi_items_1">
+                        <img src="./IMGS/peluqueria.jpg" alt>
+                        <figcaption> <p>Peluqueria</p> </figcaption>
+                    </div>
+                    <div class="main_servi_items_2">
+                        <img src="./IMGS/skincare.jpg" alt>
+                        <figcaption><p>Skin Care</p></figcaption>
+                    </div>
+                    <div class="main_servi_items_3">
+                        <img src="./IMGS/manicura.jpg" alt>
+                        <figcaption><p>Manicure</p></figcaption>
+                    </div>
+                    <div class="main_servi_items_4">
+                        <img src="./IMGS/barberia.jpg" alt>
+                        <figcaption><p>Barberia</p></figcaption>
+                    </div>
+                    <div class="main_servi_items_5">
+                        <img src="./IMGS/pedicura.jpg" alt>
+                        <figcaption><p>Pedicura</p></figcaption>
+                    </div>
+                </div>
+                
+                <div>
+                    <form action="Agendar/agendarcita.html">
+                        <button class="bton_agendar" type="submit">Agendar cita</button>
+                    </form>
+                </div>
+            </section>
             
-            <ul class="header_nav_items">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Servicios</a></li>
-                <li><a href="">Promociones</a></li>
-                <li><a href="">Nuestros trabajos</a></li>
-                <li><a href="">Clasificar</a></li>
-            </ul>
-            <div class="header_nav_button">
-                <form action="Login/login.html">
-                    <button type="submit">Autenticarse</button>
-                </form>
-                <form action="">
-                    <button type="submit">Registrarse</button>
-                </form>
-            </div>
-        </nav>
-    </header>
+            <section class="main_Promo">
+                <h4> Promociones</h4>
+            </section>
 
-    <main class="main">
-        <section class="main_servi">
-            <div><h4 class="h_Servicios">Servicios</h4></div>
-            <div class="main_servi_items">
-                <div>
-                    <img src="./IMGS/images-4.jpeg" alt>
-                    <figcaption> <p>Peluqueria</p> </figcaption>
-                </div>
-                <div>
-                    <img src="./IMGS/images-6.jpeg" alt>
-                    <figcaption><p>Skin Care</p></figcaption>
-                </div>
-                <div>
-                    <img src="./IMGS/images-8.jpeg" alt>
-                    <figcaption><p>Manicure</p></figcaption>
-                </div>
-                <div>
-                    <img src="./IMGS/images.jpeg" alt>
-                    <figcaption><p>Barberia</p></figcaption>
-                </div>
-            </div>
-            <div>
-                <form action="Agendar/agendarcita.html">
-                    <button class="bton_agendar" type="submit">Agendar cita</button>
-                </form>
-            </div>
-        </section>
-        
-        <section class="main_Promo">
-            <h4> Promociones</h4>
-        </section>
+            <section class="main_NuesS">
+                <h4>Nuestros trabajos</h4>
+            </section>
 
-        <section class="main_NuesS">
-            <h4>Nuestros trabajos</h4>
-        </section>
+            <section class="main_Clasi">
+                <h4> Clasificar</h4>
+            </section>
+        </main>
 
-        <section class="main_Clasi">
-            <h4> Clasificar</h4>
-        </section>
-    </main>
-
-</body>
+    </body>
 </html>
