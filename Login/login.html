@@ -4,20 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autenticarse</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h2>Autenticarse</h2>
+    <header class="header">
+
+        <nav class="header_nav">
+            
+            <div class="header_nav_left">
+                <p>RYAL</p>
+            </div>
+            
+            <ul class="header_nav_items">
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Promociones</a></li>
+                <li><a href="">Nuestros trabajos</a></li>
+                <li><a href="">Clasificar</a></li>
+            </ul>
+
+            <div class="header_nav_button">
+
+                <form action="Login/login.html">
+                    <button class="button_auten" type="submit">Autenticarse</button>
+                </form>
+                <form action=" ">
+                    <button class="button_regis" type="submit">Registrarse</button>
+                </form>
+            </div>
+        </nav>
     </header>
-    <Article>
-        <Section>
-            <label>Usuario</label>
-            <input type="text">     <br>
-            <label>Contraseña</label>
-            <input type="password">     <br>
-            <button>Aceptar</button>
-            <button>Cancelar</button>
-        </Section>
-    </Article>
+    
+    <main class="main_autent">
+        <section>
+            <div>
+                <h2 class="aaaaa">Autenticarse</h2>
+            </div>
+
+            <div>
+                <label>Usuario</label>
+                <input type="text">     <br>
+                <label>Contraseña</label>
+                <input type="password">     <br>
+                <button>Aceptar</button>
+                <button>Cancelar</button>
+            </div>
+        </section>
+    </main>
+    
 </body>
 </html>

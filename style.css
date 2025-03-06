@@ -9,7 +9,7 @@
   -webkit-backdrop-filter: blur(10px);
   height: 60px;
   width: 100%;
-  z-index: 2;
+  z-index: 3;
 }
 .header_nav_left {
   color: rgb(238, 181, 36);
@@ -26,8 +26,10 @@
   font-size: 18px;
 }
 .header_nav_items a {
-  text-decoration: none;
-  color: rgb(103, 63, 3);
+  text-decoration: rgb(238, 181, 36);
+  text-decoration-color: rgb(238, 181, 36);
+  text-decoration-style: double;
+  color: rgb(77, 8, 8);
   opacity: 1;
   font-weight: bold;
 }
@@ -39,7 +41,7 @@
 .button_regis {
   border: 2px solid rgb(238, 181, 36);
   background-color: transparent;
-  color: rgb(103, 63, 3);
+  color: rgb(77, 8, 8);
   border-radius: 5px;
   height: 30px;
   font-size: 15px;
@@ -47,7 +49,7 @@
 }
 .button_auten {
   border: 2px solid rgb(238, 181, 36);
-  color: rgb(103, 63, 3);
+  color: rgb(77, 8, 8);
   background-color: transparent;
   border-radius: 5px;
   height: 30px;
